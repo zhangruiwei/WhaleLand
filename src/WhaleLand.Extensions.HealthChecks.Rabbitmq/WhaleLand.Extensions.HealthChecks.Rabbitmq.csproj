@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="..\Common\Guard.cs" Link="Internal\Guard.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="RabbitMQ.Client" Version="6.2.4" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\WhaleLand.Extensions.HealthChecks\WhaleLand.Extensions.HealthChecks.csproj" />
+	</ItemGroup>
+
+</Project>

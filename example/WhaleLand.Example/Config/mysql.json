@@ -1,0 +1,5 @@
+{
+  "Mysql": {
+    "ConnectionString": "Server=localhost;Port=3306;Database=person;User=root;Password=123456;pooling=True;minpoolsize=1;maxpoolsize=100;connectiontimeout=180;SslMode=None"
+  }
+}

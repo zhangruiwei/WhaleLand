@@ -1,0 +1,12 @@
+{
+  "Tracing": {
+    "Enable": true,
+    "SerivceName": "WhaleLand-${Environment|U}",
+    "FlushIntervalSeconds": 15,
+    "SamplerType": "const",
+    "LogSpans": true,
+    "AgentPort": "5775", //代理端口
+    "AgentHost": "${Environment}.jaeger-agent.service.consul", //代理地址
+    "EndPoint": "http://${Environment}.jaeger-collector.service.consul:14268/api/traces"
+  }
+}

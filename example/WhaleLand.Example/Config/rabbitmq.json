@@ -1,0 +1,17 @@
+{
+  "EventBus": {
+    "HostName": "localhost",
+    "Port": "5672",
+    "VirtualHost": "/DEV",
+    "UserName": "root",
+    "Password": "123456",
+    "SubscriptionClientName": "Client",
+    "SenderMaxConnections": 1,
+    "SenderAcquireRetryAttempts": 3,
+    "ReceiverMaxConnections": 1,
+    "ReveiverMaxDegreeOfParallelism": 1,
+    "ReceiverAcquireRetryAttempts": 0,
+    "WorkerMaxNum": 10,
+    "ReveiverPrefetch": 100
+  }
+}

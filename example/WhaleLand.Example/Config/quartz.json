@@ -1,0 +1,22 @@
+//定时任务调度器
+{
+  "Quartz": {
+    "Open": false,
+    //触发器
+    "CronTriggers": [
+      {
+        //同步应收
+        "Open": true,
+        "Name": "ExampleCronJob_Trigger",
+        "Group": "ExampleCronJob_Triggers",
+        "Expression": "0/5 * * * * ? *",
+        "JobType": "WhaleLand.Example.Jobs.Example.Job,WhaleLand.Example",
+        "JobName": "ExampleCronJob",
+        "JobGroup": "ExampleCronJobGroup",
+        "Configuration": {
+          "DelayMinutes": "10"
+        }
+      }
+    ]
+  }
+}

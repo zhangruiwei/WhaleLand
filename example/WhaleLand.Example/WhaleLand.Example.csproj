@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interceptors\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\WhaleLand.Core\WhaleLand.Core.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.DynamicRoute\WhaleLand.DynamicRoute.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.Cache\WhaleLand.Extensions.Cache.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.Canal\WhaleLand.Extensions.Canal.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.Configuration.Json\WhaleLand.Extensions.Configuration.Json.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.DistributedLock.Redis\WhaleLand.Extensions.DistributedLock.Redis.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.DistributedLock\WhaleLand.Extensions.DistributedLock.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.DynamicRoute.Consul\WhaleLand.Extensions.DynamicRoute.Consul.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.EventBus.Kafka\WhaleLand.Extensions.EventBus.Kafka.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.EventBus.MySqlLogging\WhaleLand.Extensions.EventBus.MySqlLogging.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.EventBus.RabbitMQ\WhaleLand.Extensions.EventBus.RabbitMQ.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.EventBus.SqlServerLogging\WhaleLand.Extensions.EventBus.SqlServerLogging.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.EventBus\WhaleLand.Extensions.EventBus.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.HealthChecks.Kafka\WhaleLand.Extensions.HealthChecks.Kafka.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.HealthChecks.MongoDb\WhaleLand.Extensions.HealthChecks.MongoDb.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.HealthChecks.MySql\WhaleLand.Extensions.HealthChecks.MySql.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.HealthChecks.Rabbitmq\WhaleLand.Extensions.HealthChecks.Rabbitmq.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.HealthChecks.Redis\WhaleLand.Extensions.HealthChecks.Redis.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.HealthChecks.SqlServer\WhaleLand.Extensions.HealthChecks.SqlServer.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.HealthChecks\WhaleLand.Extensions.HealthChecks.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.Idempotency\WhaleLand.Extensions.Idempotency.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.OpenTracing.Jaeger\WhaleLand.Extensions.OpenTracing.Jaeger.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.OpenTracing\WhaleLand.Extensions.OpenTracing.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.Quartz\WhaleLand.Extensions.Quartz.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.Redis\WhaleLand.Extensions.Redis.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.Resilience.Http\WhaleLand.Extensions.Resilience.Http.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.UidGenerator.ConsulWorkIdStrategy\WhaleLand.Extensions.UidGenerator.ConsulWorkIdStrategy.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Extensions.UidGenerator\WhaleLand.Extensions.UidGenerator.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.HealthChecks\WhaleLand.HealthChecks.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.LoadBalancers\WhaleLand.LoadBalancers.csproj" />
+    <ProjectReference Include="..\..\src\WhaleLand.Metrics\WhaleLand.Metrics.csproj" />
+  </ItemGroup>
+
+
+</Project>

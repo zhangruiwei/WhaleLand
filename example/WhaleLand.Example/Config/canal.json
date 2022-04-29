@@ -1,0 +1,19 @@
+{
+  "Canal": {
+    "Subscribes": [
+      {
+        "Filter": ".*\\..*",
+        "BatchSize": 1024,
+        "Format": "WhaleLand.Extensions.Canal.Formatters.CanalJson.Formatter,WhaleLand.Extensions.Canal", //MaxwellJsonFormatter,CanalJsonFormatter
+        "Connector": "WhaleLand.Extensions.Canal.Connectors.ConsoleConnector,WhaleLand.Extensions.Canal",
+        "ConnectionInfo": {
+          "Address": "localhost",
+          "Port": 11111,
+          "Destination": "example",
+          "UserName": "",
+          "Passsword": ""
+        }
+      }
+    ]
+  }
+}

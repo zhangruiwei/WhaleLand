@@ -1,0 +1,8 @@
+{
+  "SQLServer": {
+    "Server": "localhost",
+    "Database": "example",
+    "UserId": "sa",
+    "Password": "123456"
+  }
+}

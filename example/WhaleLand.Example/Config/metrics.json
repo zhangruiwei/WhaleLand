@@ -1,0 +1,22 @@
+{
+  "AppMetrics": {
+    "Console": {
+      "Enable": false
+    },
+    "Influxdb": {
+      "Enable": true,
+      "Address": "http://localhost:8086",
+      "Database": "AppMetrics",
+      "UserName": "root",
+      "Password": "influxdb",
+      "Options": {
+        "FlushInterval": 5,
+        "HttpPolicy": {
+          "FailuresBeforeBackoff": 3,
+          "Timeout": "15",
+          "BackoffPeriod": "30"
+        }
+      }
+    }
+  }
+}

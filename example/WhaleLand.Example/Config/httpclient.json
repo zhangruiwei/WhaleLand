@@ -1,0 +1,12 @@
+{
+  "HttpClient": {
+    //异常重试次数
+    "RetryCount": 3,
+    //熔断异常阀值，超过自动熔断
+    "ExceptionsAllowedBeforeBreaking": 10,
+    //熔断位置的秒数（60秒）
+    "DurationSecondsOfBreak": 60,
+    //超时毫秒数
+    "TimeoutMillseconds": 5000
+  }
+}

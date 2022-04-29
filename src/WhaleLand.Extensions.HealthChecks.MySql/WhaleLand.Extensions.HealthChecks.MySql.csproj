@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Compile Include="..\Common\Guard.cs" Link="Internal\Guard.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="MySql.Data" Version="8.0.29" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\WhaleLand.Extensions.HealthChecks\WhaleLand.Extensions.HealthChecks.csproj" />
+	</ItemGroup>
+
+</Project>
